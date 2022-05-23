@@ -1,7 +1,6 @@
 package com.ntt.blog;
 
 import com.ntt.blog.BlogApp;
-import com.ntt.blog.config.EmbeddedMongo;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -14,6 +13,5 @@ import org.springframework.boot.test.context.SpringBootTest;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @SpringBootTest(classes = BlogApp.class)
-@EmbeddedMongo
 public @interface IntegrationTest {
 }

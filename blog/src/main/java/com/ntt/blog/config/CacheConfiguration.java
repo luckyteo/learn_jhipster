@@ -69,6 +69,7 @@ public class CacheConfiguration {
         }
         config.setManagementCenterConfig(new ManagementCenterConfig());
         config.addMapConfig(initializeDefaultMapConfig(jHipsterProperties));
+        config.addMapConfig(initializeDomainMapConfig(jHipsterProperties));
         return Hazelcast.newHazelcastInstance(config);
     }
 

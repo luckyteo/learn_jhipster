@@ -17,7 +17,7 @@
       "livenessState": "Liveness state",
       "readinessState": "Readiness state",
       "ping": "Application",
-      "mongo": "MongoDB"
+      "db": "Cơ sở dữ liệu"
     },
     "table": {
       "service": "Tên dịch vụ",
